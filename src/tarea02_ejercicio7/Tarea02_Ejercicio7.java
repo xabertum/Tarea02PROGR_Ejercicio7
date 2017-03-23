@@ -19,7 +19,8 @@ public class Tarea02_Ejercicio7 {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
-        int num1, num2, x;
+        int num1, num2;
+        float x;
                 
         System.out.println("----- num1(x) + num2 = 0 -----");
         System.out.println("");
@@ -29,9 +30,10 @@ public class Tarea02_Ejercicio7 {
         System.out.println("Introduce el segundo operando: ");
         num2 = scanner.nextInt();
         
-        x = num2/num1;
+        x = (0 - num2)/num1;
         
-        System.out.println("El resultado de " + num1+"x"+"+"+num2+"=0 es: " + x);
+        System.out.println("El resultado de " + num1 + "x" + " + " + num2 + "=0 es: " + x);
+        
         
     }
     
